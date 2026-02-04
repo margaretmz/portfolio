@@ -1,0 +1,7 @@
+{
+  "name": "Margaret Maynard-Reid - AI, art & design",
+  "description": "A luxury portfolio and AI-powered fashion design lab exploring the intersection of algorithmic precision and haute couture aesthetics.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
