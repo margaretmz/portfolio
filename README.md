@@ -1,36 +1,27 @@
-# Portfolio website
+# Portfolio Repository
 
-This is a React-based portfolio website showcasing my AI, art, and design projects.
-The design aesthetic is editorial / minimalist luxury to reflect my background in both fashion design and engineering.
+This repository contains Margaret Maynard-Reid's fashion design and engineering projects. It is organized into sub-projects for better scalability.
 
-## Tech Stack
+## Projects
 
-- **Framework:** React 19 (via ESM)
-- **Styling:** Tailwind CSS
-- **Icons:** [Material Symbols](https://fonts.google.com/icons)
-- **AI tools:** Stitch, Google AI Studio & Antigravity
-- **Deployment:** Express.js server (Cloud Run ready)
+- [**web-ui**](web-ui/): The main portfolio website (React + Tailwind + Cloud Run).
+- **backend** (Future): Upcoming backend services.
 
-## Project Structure
+## Development
 
-- `assets/`: Image assets for projects.
-- `components/`: React components for UI.
-- `services/`: API and AI services.
-- `constants.ts`: Project data and configuration.
-- `App.tsx`: Main application logic and view switching.
+To work on a specific project, navigate to its directory:
 
-## Getting Started
-
-1. Install dependencies:
-   ```bash
-   npm install
-   ```
-2. Start the production server:
-   ```bash
-   npm start
-   ```
-
-To run in development mode, you can use Vite:
 ```bash
-npx vite
+cd web-ui
+npm install
+npm run dev
+```
+
+## Deployment
+
+Projects are deployed independently. For the web-ui:
+
+```bash
+cd web-ui
+gcloud run deploy web-ui --source .
 ```
