@@ -40,3 +40,19 @@ To deploy the web interface to Cloud Run:
 cd web-ui
 gcloud run deploy web-ui --source .
 ```
+
+## License & Rights
+
+### Code
+The source code for this project (HTML, CSS, Python, Dockerfile) is licensed under the **Apache License 2.0**. You are free to fork, modify, and use the code for your own portfolio.
+
+### Creative Assets
+**Copyright © 2026 Margaret Maynard-Reid.**
+
+The creative assets in this repository, including but not limited to:
+* The `/assets/` directory
+* All fashion sketches and 3D renders
+* The "Century of Style" imagery
+* Personal profile photos
+
+Are **NOT** covered by the Apache License. They are shared under **Creative Commons BY-NC-ND 4.0** (Attribution-NonCommercial-NoDerivs). You may view and share them for educational purposes with credit, but you may not use them commercially or modify them without permission.
