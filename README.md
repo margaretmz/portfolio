@@ -1,6 +1,9 @@
 # Portfolio website
 
-This is a React-based portfolio website showcasing my AI, art, and design projects. The design aesthetic is editorial / minimalist luxury to reflect my background in both fashion design and engineering.
+This is a React-based portfolio website showcasing my AI, art, and design projects. 
+The design aesthetic is editorial and minimalist luxury to reflect my background in both fashion design and engineering.
+
+Note: This repository is the frozen submission for the [2026 New Year, New You Portfolio challenge on dev.to](https://dev.to/gde/new-year-new-me-building-my-portfolio-with-google-ai-9hp).
 
 ## Tech Stack
 
